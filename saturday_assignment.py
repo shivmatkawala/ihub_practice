@@ -1,0 +1,74 @@
+# Question 1:-
+"""Wite a Python script using slice operaator with positive direction,
+develop 10 valid use cases. string is 'Software Engineer'."""
+
+
+import time
+str_1 = "Software Engineer"
+
+# solution 1
+
+print("String is :", str_1)
+print()
+print('data type is :',type(str_1))
+print()
+print('string memory location is :',id(str_1))
+print()
+print('length of a string is:',len(str_1))
+print()
+print('case 1:',str_1[0::])
+print()
+print('case 2:', str_1[::])
+print()
+print('case 3:', str_1[5::])
+print()
+print('case 4:',str_1[::])
+print()
+print('case 5:',str_1[0::1])
+print()
+print('case 6:',str_1[0:17:2])
+print()
+print('case 7:',str_1[5:15:3])
+print()
+print('case 8:',str_1[::-1])
+print()
+print('case 9:',str_1[::4])
+print()
+print('case 10:',str_1[7::2])
+
+# Question 2:-
+"""Wite a Python script using slice operaator with negative direction,
+develop 10 valid use cases. string is 'Software Engineer'."""
+
+# solution 2
+
+print("String is :", str_1)
+print()
+print('data type is :',type(str_1))
+print()
+print('string memory location is :',id(str_1))
+print()
+print('length of a string is:',len(str_1))
+print()
+print('case 1:',str_1[-1::])
+print()
+print('case 2:', str_1[-1:-18:-1])
+print()
+print('case 3:', str_1[-5::-1])
+print()
+print('case 4:',str_1[-5:-15:-1])
+print()
+print('case 5:',str_1[-5:-10:-1])
+print()
+print('case 6:',str_1[-1:-17:-2])
+print()
+print('case 7:',str_1[-5:-15:-3])
+print()
+print('case 8:',str_1[-1::-1])
+print()
+print('case 9:',str_1[::-4])
+print()
+print('case 10:',str_1[:-12:2])
+print()
+time.sleep(3)
+print("End of an application")
